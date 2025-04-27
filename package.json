@@ -1,0 +1,24 @@
+{
+  "name": "ead",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "clean": "rimraf node_modules && npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "max-listeners-exceeded-warning": "^0.0.1",
+    "mongodb-memory-server": "^10.1.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.10"
+  }
+}
