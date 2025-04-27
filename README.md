@@ -14,12 +14,12 @@ Follow these steps to set up the project locally:
 
    ```bash
    git clone https://github.com/adamoshea/artworks-web-app.git
-   cd your-repo-name
+   cd artworks-web-app
    ```
 
 2. **Install Backend Dependencies**
 
-   From the Assignment directory:
+   From the artworks-web-app directory:
    ```bash
    npm install
    ```
